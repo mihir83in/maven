@@ -1,0 +1,14 @@
+version: "0.2"
+
+phases:
+    build:
+        commands:
+            - "mvn test"
+
+    post_build:
+        commands:
+            - "mvn deploy"
+
+artifacts:
+    files:
+        - "**/*"
