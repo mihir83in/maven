@@ -7,7 +7,7 @@ phases:
 
     post_build:
         commands:
-            - "mvn deploy"
+            - "mvn install"
 
 artifacts:
     files:
