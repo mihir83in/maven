@@ -1,7 +1,7 @@
 sudo: required
 language: java
-java:
-  - 11
+jdk:
+    - oraclejdk8
 phases:
   build:
     commands:
